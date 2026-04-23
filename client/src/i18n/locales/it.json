@@ -1,0 +1,42 @@
+{
+  "app": {
+    "documentTitle": "Tower Map — Grattacieli",
+    "title": "Tower Map",
+    "introTooltip": "Mappa Leaflet interattiva; clicca un paese per filtrare come su Forebears; clicca una torre per il modello 3D (Three.js).",
+    "subtitle": "Modelli 3D semplificati — non sono scene architettoniche ufficiali.",
+    "lightTheme": "Tema chiaro",
+    "loading": "Caricamento…",
+    "towersInDb": "{{count}} grattacieli nel database",
+    "towersFiltered": "{{visible}} / {{total}} grattacieli (filtrati)",
+    "clearFilter": "Rimuovi filtro: {{country}}",
+    "errorBanner": "Impossibile caricare i dati. Verifica che API e MongoDB siano attivi, poi esegui:",
+    "noData": "Nessun dato. Esegui il seed del database sul server."
+  },
+  "map": {
+    "legendTitle": "Mappa delle torri",
+    "legendFiltered": "Filtrato: solo {{country}}. Clicca di nuovo sullo stesso paese per rimuovere il filtro.",
+    "legendHint": "Clicca un paese per mostrare solo le torri lì; clicca un punto per la 3D.",
+    "geoError": "Impossibile caricare i contorni dei paesi (rete / CORS)."
+  },
+  "dialog": {
+    "height": "Altezza",
+    "floors": "Piani",
+    "year": "Anno",
+    "architect": "Architetto",
+    "close": "Chiudi",
+    "sceneAria": "Vista 3D: {{name}}"
+  },
+  "errors": {
+    "unknown": "Errore sconosciuto",
+    "loadFailed": "Caricamento grattacieli non riuscito"
+  },
+  "lang": {
+    "label": "Lingua"
+  },
+  "seo": {
+    "metaDescription": "Esplora i grattacieli più alti del mondo su una mappa interattiva. Filtra per paese, confronta le altezze e apri anteprime 3D semplificate con Leaflet e Three.js.",
+    "metaKeywords": "grattacieli, torri, mappa interattiva, Leaflet, Three.js, mappa torri, edifici più alti, 3D, architettura",
+    "ogLocale": "it_IT",
+    "llmSummary": "Tower Map è un’app web multilingue (anche italiano) che mostra grattacieli su una mappa Leaflet. Il clic su un paese filtra i dati; ogni torre ha metadati e un modello 3D stilizzato (Three.js). Backend Node/Express e MongoDB. Lingue con ?lang=it. Panoramica per LLM in /llms.txt."
+  }
+}

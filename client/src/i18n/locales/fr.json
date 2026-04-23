@@ -1,0 +1,42 @@
+{
+  "app": {
+    "documentTitle": "Tower Map — Gratte-ciel",
+    "title": "Tower Map",
+    "introTooltip": "Carte Leaflet interactive ; cliquez sur un pays pour filtrer comme sur Forebears ; cliquez sur une tour pour un modèle 3D (Three.js).",
+    "subtitle": "Modèles 3D simplifiés — pas de scènes architecturales officielles.",
+    "lightTheme": "Thème clair",
+    "loading": "Chargement…",
+    "towersInDb": "{{count}} tours dans la base",
+    "towersFiltered": "{{visible}} / {{total}} tours (filtré)",
+    "clearFilter": "Effacer le filtre : {{country}}",
+    "errorBanner": "Impossible de charger les données. Vérifiez que l’API et MongoDB tournent, puis exécutez :",
+    "noData": "Aucune donnée. Importez les données (seed) sur le serveur."
+  },
+  "map": {
+    "legendTitle": "Carte des tours",
+    "legendFiltered": "Filtré : {{country}} uniquement. Cliquez à nouveau sur le même pays pour effacer le filtre.",
+    "legendHint": "Cliquez sur un pays pour n’afficher que les tours ; cliquez sur un point pour la 3D.",
+    "geoError": "Impossible de charger les contours des pays (réseau / CORS)."
+  },
+  "dialog": {
+    "height": "Hauteur",
+    "floors": "Étages",
+    "year": "Année",
+    "architect": "Architecte",
+    "close": "Fermer",
+    "sceneAria": "Vue 3D : {{name}}"
+  },
+  "errors": {
+    "unknown": "Erreur inconnue",
+    "loadFailed": "Échec du chargement des tours"
+  },
+  "lang": {
+    "label": "Langue"
+  },
+  "seo": {
+    "metaDescription": "Explorez les plus hauts gratte-ciel du monde sur une carte interactive. Filtrez par pays, comparez les hauteurs et ouvrez des aperçus 3D simplifiés avec Leaflet et Three.js.",
+    "metaKeywords": "gratte-ciel, tours, carte interactive, Leaflet, Three.js, carte des tours, bâtiments les plus hauts, 3D, architecture",
+    "ogLocale": "fr_FR",
+    "llmSummary": "Tower Map est une application web multilingue (dont le français) affichant des gratte-ciel sur une carte Leaflet. Un clic sur un pays filtre les tours ; chaque tour propose des métadonnées et un modèle 3D stylisé (Three.js). Backend Node/Express et MongoDB. Paramètre d’URL ?lang=fr. Fichier pour LLM : /llms.txt."
+  }
+}

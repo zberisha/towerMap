@@ -1,0 +1,42 @@
+{
+  "app": {
+    "documentTitle": "Tower Map — Wolkenkratzer",
+    "title": "Tower Map",
+    "introTooltip": "Interaktive Leaflet-Karte; klicke auf ein Land zum Filtern wie bei Forebears; klicke auf einen Turm für ein 3D-Modell (Three.js).",
+    "subtitle": "Vereinfachte 3D-Modelle — keine offiziellen Architekturszenen.",
+    "lightTheme": "Helles Design",
+    "loading": "Laden…",
+    "towersInDb": "{{count}} Türme in der Datenbank",
+    "towersFiltered": "{{visible}} / {{total}} Türme (gefiltert)",
+    "clearFilter": "Filter aufheben: {{country}}",
+    "errorBanner": "Daten konnten nicht geladen werden. Stelle sicher, dass API-Server und MongoDB laufen, dann:",
+    "noData": "Keine Daten. Bitte die Datenbank auf dem Server mit Seed füllen."
+  },
+  "map": {
+    "legendTitle": "Turmkarte",
+    "legendFiltered": "Gefiltert: nur {{country}}. Klicke erneut auf dasselbe Land, um den Filter zu entfernen.",
+    "legendHint": "Klicke auf ein Land, um nur Türme dort zu zeigen; klicke auf einen Punkt für 3D.",
+    "geoError": "Umriss der Länder konnte nicht geladen werden (Netzwerk / CORS)."
+  },
+  "dialog": {
+    "height": "Höhe",
+    "floors": "Etagen",
+    "year": "Jahr",
+    "architect": "Architekt",
+    "close": "Schließen",
+    "sceneAria": "3D-Ansicht: {{name}}"
+  },
+  "errors": {
+    "unknown": "Unbekannter Fehler",
+    "loadFailed": "Türme konnten nicht geladen werden"
+  },
+  "lang": {
+    "label": "Sprache"
+  },
+  "seo": {
+    "metaDescription": "Entdecke die höchsten Wolkenkratzer der Welt auf einer interaktiven Karte. Filtere nach Land, vergleiche Höhen und öffne vereinfachte 3D-Vorschauen mit Leaflet und Three.js.",
+    "metaKeywords": "Wolkenkratzer, Hochhäuser, interaktive Karte, Leaflet, Three.js, Turmkarte, höchste Gebäude, 3D, Architektur",
+    "ogLocale": "de_DE",
+    "llmSummary": "Tower Map ist eine mehrsprachige Web-App (u. a. Deutsch), die bekannte Wolkenkratzer auf einer Leaflet-Weltkarte zeigt. Länderklick filtert Einträge; pro Turm gibt es Metadaten und ein vereinfachtes Three.js-3D-Modell. Stack: React, Express, MongoDB. Sprachen per ?lang= (z. B. ?lang=de). Übersicht für KI unter /llms.txt."
+  }
+}

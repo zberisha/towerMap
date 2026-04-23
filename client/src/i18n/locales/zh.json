@@ -1,0 +1,42 @@
+{
+  "app": {
+    "documentTitle": "Tower Map — 摩天大楼",
+    "title": "Tower Map",
+    "introTooltip": "交互式 Leaflet 地图；点击国家可按 Forebears 方式筛选；点击摩天大楼可查看 Three.js 3D 模型。",
+    "subtitle": "简化的 3D 模型 — 非官方建筑场景。",
+    "lightTheme": "浅色主题",
+    "loading": "加载中…",
+    "towersInDb": "数据库中有 {{count}} 座摩天大楼",
+    "towersFiltered": "{{visible}} / {{total}} 座摩天大楼（已筛选）",
+    "clearFilter": "清除筛选：{{country}}",
+    "errorBanner": "无法加载数据。请确保 API 服务器与 MongoDB 已运行，然后执行：",
+    "noData": "暂无数据。请在服务器上运行 seed 导入数据。"
+  },
+  "map": {
+    "legendTitle": "摩天楼地图",
+    "legendFiltered": "已筛选：仅 {{country}}。再次点击同一国家可清除筛选。",
+    "legendHint": "点击国家仅显示该国的楼；点击圆点查看 3D。",
+    "geoError": "无法加载国家轮廓（网络 / CORS）。"
+  },
+  "dialog": {
+    "height": "高度",
+    "floors": "层数",
+    "year": "年份",
+    "architect": "建筑师",
+    "close": "关闭",
+    "sceneAria": "3D 视图：{{name}}"
+  },
+  "errors": {
+    "unknown": "未知错误",
+    "loadFailed": "加载摩天大楼失败"
+  },
+  "lang": {
+    "label": "语言"
+  },
+  "seo": {
+    "metaDescription": "在交互式世界地图上探索全球著名摩天大楼。可按国家筛选、比较高度，并通过 Leaflet 与 Three.js 打开简化的三维预览。",
+    "metaKeywords": "摩天大楼, 超高层, 交互地图, Leaflet, Three.js, 建筑地图, 城市地标, 三维建筑",
+    "ogLocale": "zh_CN",
+    "llmSummary": "Tower Map 是一款支持中文等多语言的 Web 应用，在 Leaflet 地图上展示知名摩天楼数据。点击国家可筛选；每座楼含元数据及 Three.js 简化三维模型。技术栈含 React、Express、MongoDB。语言参数：?lang=zh。面向大模型的说明见 /llms.txt。"
+  }
+}

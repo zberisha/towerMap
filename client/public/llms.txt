@@ -1,0 +1,47 @@
+# Tower Map
+
+> Multilingual interactive skyscraper map (Leaflet + Three.js). MERN-style stack: React client, Node/Express API, MongoDB.
+
+## How to use (all languages)
+
+- Web UI language is selected in-app or via URL query: `?lang=en`, `?lang=de`, `?lang=fr`, `?lang=es`, `?lang=it`, `?lang=zh`, `?lang=ja`, `?lang=ar`.
+- Chinese uses BCP-47 `zh-Hans` in `hreflang` alternates; URL code remains `zh`.
+- Arabic UI is RTL (`dir=rtl`).
+
+## English
+
+Tower Map shows notable tall buildings on a world map. Click a country to filter towers like a choropleth explorer; click a marker for height, floors, year, architect, and a simplified 3D block preview (not an official BIM model). Country outlines are loaded from public GeoJSON; tower records come from the API `/api/skyscrapers`.
+
+## Deutsch (German)
+
+Tower Map zeigt ausgewählte Hochhäuser auf einer Weltkarte. Länderklick filtert die Daten; Marker öffnen Details und ein vereinfachtes 3D-Modell. API: `/api/skyscrapers`. Sprache: `?lang=de`.
+
+## Français (French)
+
+Tower Map affiche des gratte-ciel sur une carte mondiale. Clic pays pour filtrer ; clic point pour détails et aperçu 3D simplifié. API : `/api/skyscrapers`. Langue : `?lang=fr`.
+
+## Español (Spanish)
+
+Tower Map muestra rascacielos en un mapa mundial. Clic en país para filtrar; clic en marcador para datos y vista 3D simple. API: `/api/skyscrapers`. Idioma: `?lang=es`.
+
+## Italiano (Italian)
+
+Tower Map mostra grattacieli su mappa mondiale. Click sul paese per filtrare; click sul punto per dettagli e anteprima 3D. API: `/api/skyscrapers`. Lingua: `?lang=it`.
+
+## 中文 (Chinese, Simplified)
+
+Tower Map 在世界地图上展示摩天楼数据。点击国家筛选；点击标记查看信息与简化三维预览。API：`/api/skyscrapers`。语言参数：`?lang=zh`。
+
+## 日本語 (Japanese)
+
+Tower Map は世界地図上に超高層ビルを表示します。国で絞り込み、マーカーで詳細と簡易 3D。API: `/api/skyscrapers`。言語: `?lang=ja`。
+
+## العربية (Arabic)
+
+Tower Map يعرض ناطحات سحاب على خريطة عالمية. النقر على الدولة يصفّي النتائج؛ النقر على العلامة يظهر التفاصيل ومعاينة ثلاثية الأبعاد مبسطة. واجهة API: `/api/skyscrapers`. اللغة: `?lang=ar`.
+
+## Technical notes for crawlers
+
+- Client is a SPA; meta tags, `canonical`, `hreflang`, Open Graph, Twitter cards, and JSON-LD `WebApplication` are injected per active locale after load (`react-helmet-async`).
+- Set `VITE_PUBLIC_SITE_URL` at build time for stable absolute `og:url` and canonical URLs in production (e.g. `https://example.com`).
+- `robots.txt` allows common LLM user-agents; this file is the human/LLM-oriented overview.

@@ -1,0 +1,42 @@
+{
+  "app": {
+    "documentTitle": "Tower Map — Skyscrapers",
+    "title": "Tower Map",
+    "introTooltip": "Interactive Leaflet map; click a country to filter like Forebears; click a tower for a 3D model (Three.js).",
+    "subtitle": "Simplified 3D models — not official architectural scenes.",
+    "lightTheme": "Light theme",
+    "loading": "Loading…",
+    "towersInDb": "{{count}} towers in database",
+    "towersFiltered": "{{visible}} / {{total}} towers (filtered)",
+    "clearFilter": "Clear filter: {{country}}",
+    "errorBanner": "Could not load data. Make sure the API server and MongoDB are running, then run:",
+    "noData": "No data. Seed the database on the server."
+  },
+  "map": {
+    "legendTitle": "Tower map",
+    "legendFiltered": "Filtered: {{country}} only. Click the same country again to clear the filter.",
+    "legendHint": "Click a country to show only towers there; click a point for 3D.",
+    "geoError": "Could not load country outlines (network / CORS)."
+  },
+  "dialog": {
+    "height": "Height",
+    "floors": "Floors",
+    "year": "Year",
+    "architect": "Architect",
+    "close": "Close",
+    "sceneAria": "3D view: {{name}}"
+  },
+  "errors": {
+    "unknown": "Unknown error",
+    "loadFailed": "Failed to load towers"
+  },
+  "lang": {
+    "label": "Language"
+  },
+  "seo": {
+    "metaDescription": "Explore the world’s tallest skyscrapers on an interactive world map. Filter towers by country, compare heights, and open simplified 3D building previews powered by Leaflet and Three.js.",
+    "metaKeywords": "skyscrapers, tall buildings, interactive map, Leaflet, Three.js, MERN, tower map, world tallest buildings, 3D buildings, architecture map",
+    "ogLocale": "en_US",
+    "llmSummary": "Tower Map is a multilingual web application (English, German, French, Spanish, Italian, Chinese, Japanese, Arabic) that visualizes notable skyscrapers on a Leaflet map. Users filter by clicking a country, view metadata, and see a stylized Three.js 3D block model per tower. Backend: Node/Express with MongoDB. Public URLs support ?lang= codes for each locale. A machine-readable overview is at /llms.txt."
+  }
+}

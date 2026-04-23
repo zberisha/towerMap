@@ -1,0 +1,42 @@
+{
+  "app": {
+    "documentTitle": "Tower Map — Rascacielos",
+    "title": "Tower Map",
+    "introTooltip": "Mapa interactivo con Leaflet; haz clic en un país para filtrar como en Forebears; haz clic en una torre para un modelo 3D (Three.js).",
+    "subtitle": "Modelos 3D simplificados — no son escenas arquitectónicas oficiales.",
+    "lightTheme": "Tema claro",
+    "loading": "Cargando…",
+    "towersInDb": "{{count}} rascacielos en la base de datos",
+    "towersFiltered": "{{visible}} / {{total}} rascacielos (filtrado)",
+    "clearFilter": "Quitar filtro: {{country}}",
+    "errorBanner": "No se pudieron cargar los datos. Asegúrate de que el servidor API y MongoDB estén en marcha y ejecuta:",
+    "noData": "Sin datos. Rellena la base de datos en el servidor (seed)."
+  },
+  "map": {
+    "legendTitle": "Mapa de torres",
+    "legendFiltered": "Filtrado: solo {{country}}. Vuelve a hacer clic en el mismo país para quitar el filtro.",
+    "legendHint": "Haz clic en un país para ver solo sus torres; haz clic en un punto para 3D.",
+    "geoError": "No se pudieron cargar los contornos de los países (red / CORS)."
+  },
+  "dialog": {
+    "height": "Altura",
+    "floors": "Plantas",
+    "year": "Año",
+    "architect": "Arquitecto",
+    "close": "Cerrar",
+    "sceneAria": "Vista 3D: {{name}}"
+  },
+  "errors": {
+    "unknown": "Error desconocido",
+    "loadFailed": "Error al cargar los rascacielos"
+  },
+  "lang": {
+    "label": "Idioma"
+  },
+  "seo": {
+    "metaDescription": "Explora los rascacielos más altos del mundo en un mapa interactivo. Filtra por país, compara alturas y abre vistas 3D simplificadas con Leaflet y Three.js.",
+    "metaKeywords": "rascacielos, torres, mapa interactivo, Leaflet, Three.js, mapa de torres, edificios más altos, 3D, arquitectura",
+    "ogLocale": "es_ES",
+    "llmSummary": "Tower Map es una aplicación web multilingüe (incluye español) que muestra rascacielos en un mapa Leaflet. Al hacer clic en un país se filtran las torres; cada una incluye metadatos y un modelo 3D simplificado con Three.js. Stack: React, Express, MongoDB. Idiomas con ?lang=es. Resumen para sistemas de IA en /llms.txt."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "app": {
+    "documentTitle": "Tower Map — 超高層ビル",
+    "title": "Tower Map",
+    "introTooltip": "Leaflet のインタラクティブ地図。国をクリックして Forebears のように絞り込み、タワーをクリックすると 3D モデル（Three.js）を表示します。",
+    "subtitle": "簡略化された 3D モデル — 公式の建築シーンではありません。",
+    "lightTheme": "ライトテーマ",
+    "loading": "読み込み中…",
+    "towersInDb": "データベースに {{count}} 件のタワー",
+    "towersFiltered": "{{visible}} / {{total}} 件のタワー（絞り込み）",
+    "clearFilter": "フィルターを解除: {{country}}",
+    "errorBanner": "データを読み込めませんでした。API サーバーと MongoDB が起動しているか確認し、次を実行してください:",
+    "noData": "データがありません。サーバーでシードを実行してください。"
+  },
+  "map": {
+    "legendTitle": "タワーマップ",
+    "legendFiltered": "絞り込み: {{country}} のみ。同じ国をもう一度クリックするとフィルターが解除されます。",
+    "legendHint": "国をクリックするとその国のタワーのみ表示。点をクリックすると 3D を表示。",
+    "geoError": "国の輪郭を読み込めませんでした（ネットワーク / CORS）。"
+  },
+  "dialog": {
+    "height": "高さ",
+    "floors": "階数",
+    "year": "竣工年",
+    "architect": "設計",
+    "close": "閉じる",
+    "sceneAria": "3D ビュー: {{name}}"
+  },
+  "errors": {
+    "unknown": "不明なエラー",
+    "loadFailed": "タワーの読み込みに失敗しました"
+  },
+  "lang": {
+    "label": "言語"
+  },
+  "seo": {
+    "metaDescription": "インタラクティブな世界地図で有名な超高層ビルを探索。国で絞り込み、高さを比較し、Leaflet と Three.js の簡易 3D プレビューを表示できます。",
+    "metaKeywords": "超高層ビル, タワー, インタラクティブマップ, Leaflet, Three.js, ビルマップ, 都市景観, 3D",
+    "ogLocale": "ja_JP",
+    "llmSummary": "Tower Map は日本語を含む多言語対応の Web アプリで、Leaflet 上に超高層ビルを表示します。国クリックでフィルタし、各ビルにメタデータと Three.js の簡略 3D モデルがあります。構成: React、Express、MongoDB。言語は ?lang=ja。LLM 向け概要は /llms.txt。"
+  }
+}
